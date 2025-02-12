@@ -8,6 +8,54 @@ import { Search } from "lucide-react";
 const Servers = () => {
   const servers = [
     {
+      name: "Rede Skyminigames",
+      players: 12000,
+      maxPlayers: 15000,
+      status: "online" as const,
+      version: "1.8.9 - 1.20.1",
+      ip: "jogar.skyminigames.com.br",
+    },
+    {
+      name: "Rede Branium",
+      players: 8500,
+      maxPlayers: 10000,
+      status: "online" as const,
+      version: "1.8.9 - 1.20.1",
+      ip: "jogar.branium.com.br",
+    },
+    {
+      name: "Rede Champions",
+      players: 5000,
+      maxPlayers: 8000,
+      status: "online" as const,
+      version: "1.8.9 - 1.20.1",
+      ip: "jogar.champions.com.br",
+    },
+    {
+      name: "LuthoMC",
+      players: 3500,
+      maxPlayers: 5000,
+      status: "online" as const,
+      version: "1.8.9 - 1.20.1",
+      ip: "jogar.luthomc.com.br",
+    },
+    {
+      name: "Rede MMO",
+      players: 2800,
+      maxPlayers: 4000,
+      status: "online" as const,
+      version: "1.8.9 - 1.20.1",
+      ip: "jogar.redemmo.com.br",
+    },
+    {
+      name: "Rede MasterMC",
+      players: 2500,
+      maxPlayers: 3000,
+      status: "online" as const,
+      version: "1.8.9 - 1.20.1",
+      ip: "jogar.mastermc.com.br",
+    },
+    {
       name: "Hypixel",
       players: 150000,
       maxPlayers: 200000,
@@ -22,38 +70,6 @@ const Servers = () => {
       status: "online" as const,
       version: "1.16.5 - 1.20.1",
       ip: "play.cubecraft.net",
-    },
-    {
-      name: "Mineplex",
-      players: 15000,
-      maxPlayers: 30000,
-      status: "online" as const,
-      version: "1.8 - 1.20.1",
-      ip: "us.mineplex.com",
-    },
-    {
-      name: "Complex Gaming",
-      players: 8500,
-      maxPlayers: 10000,
-      status: "online" as const,
-      version: "1.19 - 1.20.1",
-      ip: "play.complexgaming.com",
-    },
-    {
-      name: "Wynncraft",
-      players: 2800,
-      maxPlayers: 5000,
-      status: "online" as const,
-      version: "1.20.1",
-      ip: "play.wynncraft.com",
-    },
-    {
-      name: "ManaCube",
-      players: 3500,
-      maxPlayers: 5000,
-      status: "online" as const,
-      version: "1.16.5 - 1.20.1",
-      ip: "play.manacube.com",
     }
   ];
 
